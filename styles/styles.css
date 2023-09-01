@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --transition-speed: 600ms;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(27, 0, 0, 0.199);
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6649b8;
+}
+
+main {
+    margin-left: 5rem;
+}
+
+#navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #1b1b1b;
+    transition: width 200ms ease;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    filter: grayscale(100%) opacity(1);
+    transition: var(--transition-speed);
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link:hover {
+    filter: grayscale(0) opacity(1);
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+    color: #0a9dff;
+}
+
+.nav-link svg {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    
+    transition: var(--transition-speed);
+}
+
+.nav-link svg:hover {
+    filter: grayscale(0) opacity(1);
+}
+
+#navbar:hover {
+    width: 16rem;
+}
+
+#navbar:hover .link-text {
+    display: block;
+}
+
+path {
+    fill: #0a9dff;
+}
