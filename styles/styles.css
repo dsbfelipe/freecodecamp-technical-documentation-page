@@ -94,8 +94,6 @@ path {
 }
 
 section {
-    border: 1px solid black;
-    border-radius: 1rem;
     width: 70%;
     padding: 1rem 5rem;
     margin: 0 auto;
