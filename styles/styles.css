@@ -67,6 +67,7 @@ main {
     display: none;
     margin-left: 1rem;
     color: #0a9dff;
+    transition-delay: 200ms;
 }
 
 .nav-link svg {
