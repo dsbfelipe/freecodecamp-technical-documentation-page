@@ -4,6 +4,7 @@ html {
     background-color: #f8e3c8;
     font-family: 'Inter', sans-serif;
     color: #35312b;
+    scroll-behavior: smooth
 }
 
 #navbar {
@@ -25,6 +26,8 @@ main {
     padding: 4rem;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 10px #dfc8aa, -1px -1px 10px #dfc8aa;
+    margin-bottom: 10rem;
+    padding-bottom: 1rem;
 }
 
 .navbar-nav {
