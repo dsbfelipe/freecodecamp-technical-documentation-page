@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&family=Rubik:wght@300;400&display=swap');
 
 html {
-    background-color: #d4fcb4;
+    background-color: #e4bddf;
     font-family: 'Inter', sans-serif;
-    color: #35312b;
-    scroll-behavior: smooth
+    color: #2b2722;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -25,7 +26,7 @@ main {
     background-color: white;
     padding: 4rem;
     border-radius: 0.5rem;
-    box-shadow: 1px 1px 10px #8da778, -1px -1px 10px #8da778;
+    box-shadow: 1px 1px 10px #7c5e78, -1px -1px 10px #7c5e78;
     margin-bottom: 10rem;
     padding-bottom: 1rem;
 }
@@ -54,11 +55,11 @@ main {
 }
 
 .section-header {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 28px;
     margin-bottom: 1.5rem;
     letter-spacing: -1px;
-    color: rgb(0, 0, 0);
+    color: rgb(29, 29, 29);
     font-weight: 500;
 }
 
@@ -169,7 +170,7 @@ p {
     width: 16rem;
     height: 3rem;
     border-radius: 15px;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #a393a1;
     padding-left: 1rem;
 }
 
