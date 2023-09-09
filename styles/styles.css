@@ -10,7 +10,7 @@ html {
 #navbar {
     width: 16rem;
     position: fixed;
-    top: 11rem;
+    top: 14.5rem;
     left: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -85,18 +85,17 @@ section {
 
 .nav-header {
     font-family: 'Inter', sans-serif;
-    margin-bottom: 1rem;
     margin-left: 2.3rem;
     color: black;
     font-size: 30px;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     font-weight: 700;
     letter-spacing: -1px;
 }
 
 .logo {
     position: fixed;
-    top: 10rem;
+    top: 13.5rem;
     left: 4.85rem;
     font-weight: 500;
 }
@@ -150,6 +149,24 @@ p {
 
 .hidden {
     display: none;
+}
+
+#n64-logo {
+    position: fixed;
+    width: 5rem;
+    top: 1rem;
+    left: 7.75rem;
+}
+
+#search {
+    position: fixed;
+    top: 8.6rem;
+    left: 4.5rem;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid #dfc8aa;
+    box-shadow: 1px 1px 10px #dfc8aa, -1px -1px 10px #dfc8aa;
 }
 
 @media (max-width: 480px) {
