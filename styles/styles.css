@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&family=Rubik:wght@300;400&display=swap');
 
 html {
-    background-color: #f8e3c8;
+    background-color: #d4fcb4;
     font-family: 'Inter', sans-serif;
     color: #35312b;
     scroll-behavior: smooth
@@ -10,7 +10,7 @@ html {
 #navbar {
     width: 16rem;
     position: fixed;
-    top: 14.5rem;
+    top: 16rem;
     left: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ main {
     background-color: white;
     padding: 4rem;
     border-radius: 0.5rem;
-    box-shadow: 1px 1px 10px #dfc8aa, -1px -1px 10px #dfc8aa;
+    box-shadow: 1px 1px 10px #8da778, -1px -1px 10px #8da778;
     margin-bottom: 10rem;
     padding-bottom: 1rem;
 }
@@ -42,11 +42,15 @@ main {
 }
 
 .nav-link:hover {
-    color: blue;
+    color: rgb(35, 120, 216);
+}
+
+.horizontal-link:hover {
+    color: rgb(35, 120, 216);
 }
 
 .nav-item {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .section-header {
@@ -95,7 +99,7 @@ section {
 
 .logo {
     position: fixed;
-    top: 13.5rem;
+    top: 15rem;
     left: 4.85rem;
     font-weight: 500;
 }
@@ -154,19 +158,47 @@ p {
 #n64-logo {
     position: fixed;
     width: 5rem;
-    top: 1rem;
-    left: 7.75rem;
+    top: 1.5rem;
+    left: 5.25rem;
 }
 
 #search {
     position: fixed;
-    top: 8.6rem;
-    left: 4.5rem;
+    top: 8.5rem;
+    left: 4.7rem;
     width: 16rem;
-    height: 2rem;
-    border-radius: 10px;
-    border: 1px solid #dfc8aa;
-    box-shadow: 1px 1px 10px #dfc8aa, -1px -1px 10px #dfc8aa;
+    height: 3rem;
+    border-radius: 15px;
+    border: 1px solid #dbdbdb;
+    padding-left: 1rem;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #88837b;
+    position: relative;
+    top: 2px;
+}
+
+.navbar-horizontal {
+    display: flex;
+    position: absolute;
+    left: 60rem;
+    top: 2rem;
+    width: 25rem;
+    justify-content: flex-end;
+}
+
+.horizontal-item {
+    list-style-type: none;
+    width: 50rem;
+    overflow: hidden;
+}
+
+.horizontal-link {
+    text-decoration: none;
+    color: black;
+    transition: 300ms ease;
 }
 
 @media (max-width: 480px) {
