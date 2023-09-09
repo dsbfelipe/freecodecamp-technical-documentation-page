@@ -58,7 +58,7 @@ main {
     font-weight: 500;
 }
 
-.main-session {
+.main-section {
     margin-bottom: 3rem;
 }
 
@@ -146,4 +146,45 @@ p {
 
 .more-space {
     margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+    }
+    #controller {
+        width: 17rem;
+        left: -1.8rem;
+    }
+    .positions {
+        width: 17rem;
+        left: -1.5rem;
+    }
+    main {
+        max-width: 360px;
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+        background-color: white;
+        padding: 4rem;
+        border-radius: 0.5rem;
+        box-shadow: 1px 1px 10px #dfc8aa, -1px -1px 10px #dfc8aa;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+    .logo {
+        position: relative;
+        top: 2rem;
+        left: 2.5rem;
+        font-weight: 500;
+    }
+    .nav-header {
+        margin-bottom: 1rem;
+    }
 }
