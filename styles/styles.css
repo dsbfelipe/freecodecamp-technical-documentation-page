@@ -25,6 +25,7 @@ main {
     top: 8rem;
     background-color: white;
     padding: 4rem;
+    padding-top: 3rem;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 10px #7c5e78, -1px -1px 10px #7c5e78;
     margin-bottom: 10rem;
