@@ -21,6 +21,8 @@ The objective of this project was to make an app similar to "https://technical-d
 <br>
 For a screenshot of the full page click below:
 
+<br>
+
 <details>
 <summary>Full page screenshot</summary>
 <br>
