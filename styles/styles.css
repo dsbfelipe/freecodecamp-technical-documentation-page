@@ -206,7 +206,7 @@ p {
 @media (max-width: 480px) {
     #navbar {
         position: relative;
-        top: 2rem;
+        top: 12.5rem;
         left: 0rem;
     }
     #controller {
@@ -221,21 +221,48 @@ p {
         max-width: 360px;
         position: relative;
         left: 0rem;
-        top: 0rem;
+        top: 6rem;
         background-color: white;
-        padding: 4rem;
+        padding: 2rem;
         border-radius: 0.5rem;
-        box-shadow: 1px 1px 10px #dfc8aa, -1px -1px 10px #dfc8aa;
-        margin-bottom: 1rem;
+        box-shadow: 1px 1px 10px #7c5e78, -1px -1px 10px #7c5e78;
+        margin-bottom: 7rem;
         padding-bottom: 1rem;
     }
     .logo {
         position: relative;
-        top: 2rem;
+        top: 12.5rem;
         left: 2.5rem;
         font-weight: 500;
     }
     .nav-header {
         margin-bottom: 1rem;
+    }
+    .navbar-horizontal {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        left: -33rem;
+        top: 1.5rem;
+    }
+    #search {
+        position: absolute;
+        top: 8rem;
+        left: 2.5rem;
+        width: 16rem;
+        height: 3rem;
+        border-radius: 15px;
+        border: 1px solid #a393a1;
+        padding-left: 1rem;
+    }
+    #n64-logo {
+        position: absolute;
+        width: 5rem;
+        top: 1.5rem;
+        left: 2.75rem;
+    }
+    .horizontal-item {
+        margin-bottom: 1rem;
+        text-align: right;
     }
 }
