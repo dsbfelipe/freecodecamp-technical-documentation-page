@@ -35,12 +35,6 @@ For a screenshot of the full page click below:
 For a screenshot of the mobile's page version click below:
 
 <br>
-<details>
-<summary>Mobile screenshot</summary>
-<br>
-
-  ![Project's screenshot](images/mobile.png)
-</details>
 
 <br>
 <br>
