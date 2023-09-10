@@ -18,10 +18,11 @@ The objective of this project was to make an app similar to "https://technical-d
 ![Project's screenshot](images/page-start.png)
 *<p align="center">Project's brief screenshot</p>* 
 
-If you want to see a screenshot of the full page click below:
+For a screenshot of the full page click below:
 
 <details>
 <summary>Full page screenshot</summary>
+<br>
 
   ![Project's screenshot](images/screenshot.png)
 </details>
