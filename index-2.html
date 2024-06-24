@@ -1,90 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles2.css" />
   </head>
   <body>
-    <header id="main-header">
-      <div id="logo-h-nav">
-        <img id="logo" src="/images/nintendo-logo.svg" alt="" />
-        <div id="h-nav">
-          <ul class="header-nav">
-            <li>
-              <a href="" class="header-link">
-                <span class="link-text bold">User Manual</span>
-              </a>
-            </li>
-            <li>
-              <a href="" class="header-link">
-                <span class="link-text">Product Overview</span>
-              </a>
-            </li>
-            <li>
-              <a href="" class="horizontal-link">
-                <span class="link-text">FAQ</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <input id="search" type="text" placeholder="Search..." />
-      </div>
-    </header>
-
-    <main>
-      <nav id="navbar">
-        <header class="nav-header">On this page</header>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="#Introduction" class="nav-link">
-              <span class="link-text">Introduction</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#Components" class="nav-link">
-              <span class="link-text">Components</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#Setup" class="nav-link">
-              <span class="link-text">Setup</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#Connections" class="nav-link">
-              <span class="link-text">Connections</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#Controller" class="nav-link">
-              <span class="link-text">Controller</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#Troubleshooting" class="nav-link">
-              <span class="link-text">Troubleshooting</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <fieldset>
-        <div id="fieldset-header">
-          <p id="fieldset-header-h1">Nintendo 64 User Manual</p>
-          <p id="fieldset-header-h2">
-            Welcome to the Nintendo 64 user manual! Here you'll find everything
-            you need to explore, enjoy, and master the console that
-            revolutionized the world of video games.
-          </p>
-          <div id="fieldset-header-buttons">
-            <button id="button-1">Software Configuration</button>
-            <p id="or">or</p>
-            <button id="button-2">Hardware Configuration</button>
-          </div>
-        </div>
+    <img id="n64-logo" src="images/logo.png" alt="Nintendo 64 logo" />
+    <header class="logo">NINTENDO 64</header>
+    <ul class="navbar-horizontal">
+      <li class="horizontal-item">
+        <a href="" class="horizontal-link">
+          <span class="link-text">Product Overview</span>
+        </a>
+      </li>
+      <li class="horizontal-item horizontal">
+        <a href="" class="horizontal-link">
+          <span class="link-text">FAQ</span>
+        </a>
+      </li>
+    </ul>
+    <input id="search" type="text" placeholder="Search" />
+    <nav id="navbar">
+      <header class="nav-header">User Manual</header>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#Introduction" class="nav-link">
+            <span class="link-text">Introduction</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#Components" class="nav-link">
+            <span class="link-text">Components</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#Setup" class="nav-link">
+            <span class="link-text">Setup</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#Connections" class="nav-link">
+            <span class="link-text">Connections</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#Controller" class="nav-link">
+            <span class="link-text">Controller</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#Troubleshooting" class="nav-link">
+            <span class="link-text">Troubleshooting</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <div class="container">
         <section class="main-section" id="Introduction">
           <header class="section-header">Introduction</header>
           <p>
@@ -159,6 +132,7 @@
               inserted.
             </li>
           </ul>
+
           <p>
             Due to the fact that most modern television nowadays only have HDMI
             inputs, there may be an issue while trying to set up your N64. If
@@ -319,7 +293,6 @@
             <li class="section-list">Start: Pause or menu button</li>
             <li class="section-list">Analogue Stick: Control</li>
           </ul>
-          <br />
           <p class="margin-top-p">
             Due to the design of the N64 controller, it can be held in 3
             different ways. These may vary depending on play style and between
@@ -404,20 +377,49 @@
               responsive.
             </li>
           </ul>
+          <p class="list-header">Sticky Control Buttons</p>
+          <p>Clean the controller buttons using the following procedure:</p>
+          <ul class="numbered">
+            <li class="section-list more-space">
+              Disconnect the controller from the control deck.
+            </li>
+            <li class="section-list more-space">
+              Get a clean toothbrush and a cup of warm tap water.
+            </li>
+            <ul class="letter-indent">
+              <li class="more-space">
+                Do not pour or submerge the controller in any type of liquid.
+              </li>
+            </ul>
+            <li class="section-list more-space">
+              Slightly dip the toothbrush in the water and scrub the area of the
+              controller around the buttons and control stick.
+            </li>
+            <li class="section-list more-space">
+              Work the bristles down around the sides of the buttons and the
+              control stick.
+            </li>
+            <li class="section-list more-space">
+              After cleaning the controller, dry it off with a paper towel.
+            </li>
+            <li class="section-list more-space">
+              Let the controller air dry for at least a couple of hours.
+            </li>
+            <li class="section-list more-space">
+              Test the controller for proper response.
+            </li>
+          </ul>
+          <p>
+            If the controller still does not work, it may need to be replaced.
+            Try using another controller.
+          </p>
           <code class="hidden">hidden</code>
           <code class="hidden">hidden</code>
           <code class="hidden">hidden</code>
           <code class="hidden">hidden</code>
           <code class="hidden">hidden</code>
         </section>
-        <div id="feedback">
-          <p class="feedback-text">Was this helpful?</p>
-          <img class="feedback-emoji" src="/images/happy.svg" alt="" />
-          <img class="feedback-emoji" src="/images/neutral.svg" alt="" />
-          <img class="feedback-emoji" src="/images/sad.svg" alt="" />
-        </div>
-      </fieldset>
+      </div>
     </main>
-    <footer></footer>
   </body>
 </html>
