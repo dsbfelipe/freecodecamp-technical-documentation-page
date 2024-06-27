@@ -24,7 +24,7 @@ For this project i tried to reproduce some elements from the design of Vercel's 
 
 - I had a lot of trouble making a media query for the mobile version from the default 1080p desktop version, the whole interface broke and it was kinda hard to bring it to an acceptable state.
 
-  - **Solution:** Commented the entire CSS code and began the media query code from scratch, activating the default css afterwards and fixing some minor issues that remained.
+  - **Solution:** Commented the entire CSS code and began the media query code from scratch, activating the default CSS afterwards and fixing some minor issues that remained.
   - **Reminder for the next project:** Try out the mobile-first approach.
 
 - I wanted to put a search icon on the search bar, but couldn't figure out how to put it on the placeholder of the search input.
