@@ -244,4 +244,82 @@ footer {
 }
 
 @media (max-width: 480px) {
+  * {
+    max-width: 100%;
+  }
+
+  #main-header {
+    display: flex;
+    flex-direction: center;
+    margin-bottom: 64px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    padding-top: 16px;
+  }
+
+  #logo {
+    width: 150px;
+    margin-bottom: 16px;
+  }
+
+  #search {
+    width: 230px;
+    transform: translateX(-12px);
+    margin-bottom: 16px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #fieldset-header {
+    text-align: center;
+    display: block;
+    margin-bottom: 64px;
+    margin-top: 64px;
+  }
+
+  #fieldset-header-buttons {
+    display: block;
+  }
+
+  #feedback {
+    text-align: center;
+    display: block;
+    padding-bottom: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  fieldset {
+    width: 100%;
+    padding: 0;
+  }
+
+  main {
+    padding: 0;
+    display: block;
+    width: 100%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  section {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  section p,
+  section li {
+    font-size: 20px;
+    line-height: 1.5;
+  }
 }
