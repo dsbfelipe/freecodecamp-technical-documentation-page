@@ -23,16 +23,13 @@ For this project i tried to reproduce some elements from the design of Vercel's 
 ### **Troubleshooting and considerations**
 
 - I had a lot of trouble making a media query for the mobile version from the default 1080p desktop version, the whole interface broke and it was kinda hard to bring it to an acceptable state.
-  <br>
 
   - **Solution:** Commented the entire CSS code and began the media query code from scratch, activating the default css afterwards and fixing some minor issues that remained.
-    <br>
   - **Reminder for the next project:** Try out the mobile-first approach.
 
 - I wanted to put a search icon on the search bar, but couldn't figure out how to put it on the placeholder of the search input.
   - **Solution:** I could've put both the search bar and the icon inside a div with the same background color of the input
     so it would look the way i wanted, but it wouldn't function the way i wanted.
-    <br>
   - **Reminder for the next project:** I don't know, maybe this can be solved later with javascript or some other tool.
 
 _obs.: There's a hidden code element on the html, because freeCodeCamp had it required on the project's user stories, but i didn't wanted a random piece of code lost in the middle of my project so i display:hidden it_
