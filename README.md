@@ -15,6 +15,13 @@ A technical documentation page of the nintendo 64 user manual using HTML and CSS
 
 The objective of this project was to make an app similar to "https://technical-documentation-page.freecodecamp.rocks/" for a subject of my choosing and passing the test's requirements, practicing what was learned on the third module of the course, like **Pseudo Selectors** and **Media Queries** for **Responsive Design**.
 
+<br>
+
+![Project's screenshot](images/screenshot.png)
+_<p align="right">Project's screenshot</p>_
+
+<br>
+
 ### **Acknowledgments**
 
 For this project i tried to reproduce some elements from the design of Vercel's documentation page on my interface, that you can find here: https://vercel.com/docs
@@ -31,9 +38,8 @@ For this project i tried to reproduce some elements from the design of Vercel's 
     so it would look the way i wanted, but it wouldn't function the way i wanted.
   - **Reminder for the next project:** I don't know, maybe this can be solved later with javascript or some other tool.
 
+<br>
+
 _obs.: There's a hidden code element on the html, because freeCodeCamp had it required on the project's user stories, but i didn't wanted a random piece of code lost in the middle of my project so i display:hidden it_
 
 <br>
-
-![Project's screenshot](images/screenshot.png)
-_<p align="right">Project's screenshot</p>_
