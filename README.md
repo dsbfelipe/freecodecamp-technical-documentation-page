@@ -11,7 +11,7 @@ Project for _freeCodeCamp_ **Responsive Web Design** course
 
 A technical documentation page of the nintendo 64 user manual using HTML and CSS.
 
-## Objective
+## Project Overview
 
 The objective of this project was to make an app similar to "https://technical-documentation-page.freecodecamp.rocks/" for a subject of my choosing and passing the test's requirements, practicing what was learned on the third module of the course, like **Pseudo Selectors** and **Media Queries** for **Responsive Design**.
 
